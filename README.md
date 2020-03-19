@@ -19,6 +19,7 @@ Com o POSTMAN ou INSOMNIA
 
 ### Crie um novo Tweet
 URL: `localhost:4000/api/tweets`
+
 MÉTODO: POST
 
 Coloque o Body desta forma
@@ -32,10 +33,12 @@ Coloque o Body desta forma
 
 ### Liste todos os seus tweets
 URL: `localhost:4000/api/tweets`
+
 MÉTODO: GET
 
 ### Visualize um tweet passando o ID
-URL: localhost:4000/api/tweets/1
+URL: `localhost:4000/api/tweets/1`
+
 MÉTODO: GET
 
 ## Documentações
