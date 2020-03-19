@@ -8,4 +8,13 @@ defmodule ApiTwitterWeb.Router do
   scope "/api", ApiTwitterWeb do
     pipe_through :api
   end
+
+  pipeline :browser do
+    plug :accepts, ["html"]
+  end
+
+  scope "/", ApiTwitterWeb do
+    pipe_through :browser
+    get "/", DefaultController, :index
+  end
 end
