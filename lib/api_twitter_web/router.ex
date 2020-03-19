@@ -7,6 +7,7 @@ defmodule ApiTwitterWeb.Router do
 
   scope "/api", ApiTwitterWeb do
     pipe_through :api
+    resources "/tweets", TweetController, except: [:new, :edit]
   end
 
   pipeline :browser do
