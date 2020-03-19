@@ -1,6 +1,6 @@
 # ApiTwitter
 
-API muito simples, com 3 endpoint, simulando o Twitter (de forma beeeeem simples) apenas para iniciar o aprendizado na linguagem Elixir, utilizando o framework Phoenix.
+API muito simples, com 3 endpoints, simulando o Twitter (de forma beeeeem simples) apenas para iniciar o aprendizado na linguagem Elixir, utilizando o framework Phoenix.
 
 
 Para rodar o projeto execute os seguintes passos (tenha o Elixir instalado):
